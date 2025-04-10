@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .sobre-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .sobre-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+  }
+  
+  .imagem-sobre {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .sobre-container p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+  }
+  
+  .depoimentos {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+  }
+  
+  .depoimentos h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .depoimento {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .depoimento span {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  footer {
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  

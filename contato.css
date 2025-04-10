@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contato-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .contato-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-contato label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .form-contato input,
+  .form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+  }
+  
+  .form-contato button {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-contato button:hover {
+    background-color: #333;
+  }
+  
+  footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  /* WHATSAPP LINK - ESTILIZAÇÃO INTERATIVA */
+.whatsapp-link {
+    text-align: center;
+    margin-top: 40px;
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  .whatsapp-link p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .whatsapp-link a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+    animation: pulse 2s infinite;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .whatsapp-link a:hover {
+    transform: scale(1.05);
+    background-color: #1ebe5d;
+  }
+  
+  .whatsapp-link a::before {
+    content: "📞";
+    font-size: 1.2em;
+  }
+  
+  /* Animações */
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+    }
+    70% {
+      box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
