@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora - Pedras Grandes</title>
+  <link rel="stylesheet" href="calculadora.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Pedras Grandes</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+      <a href="calculadora.html">Calculadora</a>
+    </nav>
+  </header>
+
+  <div class="calculadora-container">
+    <h3>🧮 Calcule a Quantidade de Pedra Necessária</h3>
+  
+    <label for="tipoPedra">Tipo de pedra:
+      <select id="tipoPedra">
+        <option value="1600">Seixo Rolado Médio</option>
+        <option value="1500">Seixo Rolado Pequeno</option>
+        <option value="1700">Seixo Branco</option>
+        <option value="1800">Seixo Preto</option>
+        <option value="1650">Pedra Brita</option>
+        <option value="1400">Pedra Decorativa</option>
+      </select>
+    </label>
+  
+    <label for="comprimento">Comprimento (m):
+      <input type="number" id="comprimento" step="0.1">
+    </label>
+  
+    <label for="largura">Largura (m):
+      <input type="number" id="largura" step="0.1">
+    </label>
+  
+    <label for="espessura">Espessura (cm):
+      <input type="number" id="espessura" step="0.1">
+    </label>
+  
+    <button onclick="calcularPedra()">Calcular</button>
+  
+    <p id="resultado"></p>
+  </div>
+  
+  
+  
+
+  <script src="calculadora.js" defer></script>
+
