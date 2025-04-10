@@ -17,36 +17,38 @@
     </nav>
   </header>
 
-<main>
-    <section class="produtos">
-      <div class="produto">
-        <div class="imagem"></div>
-        <h3>TIPO 1 AREIA</h3>
-        <p>R$ --,--</p>
-      </div>
+  <section class="filtros">
+    <button class="btn active" data-filtro="todos">Todos</button>
+    <button class="btn" data-filtro="areia">Areia</button>
+    <button class="btn" data-filtro="pedras">Pedras</button>
+    <button class="btn" data-filtro="brita">Brita</button>
+  </section>
 
-      <div class="produto">
-        <div class="imagem"></div>
-        <h3>TIPO 2 AREIA</h3>
-        <p>R$ --,--</p>
-      </div>
+  <section class="produtos-container">
+    <div class="produto-card areia">
+      <h3>Areia Fina</h3>
+      <p>Ideal para reboco e acabamento fino.</p>
+    </div>
 
-      <div class="produto">
-        <div class="imagem"></div>
-        <h3>TIPO 1 PEDRA</h3>
-        <p>R$ --,--</p>
-      </div>
-    
-      <div class="produto">
-        <div class="imagem"></div>
-        <h3>TIPO 1 PEDRA</h3>
-        <p>R$ --,--</p>
-      </div>
+    <div class="produto-card pedras">
+      <h3>Pedra Decorativa Branca</h3>
+      <p>Excelente para jardins e paisagismo.</p>
+    </div>
 
-      <div class="produto">
-        <div class="imagem"></div>
-        <h3>TIPO 1 PEDRA</h3>
-        <p>R$ --,--</p>
-      </div>
-    </section>
-  </main>
+    <div class="produto-card brita">
+      <h3>Brita 1</h3>
+      <p>Utilizada em concretos e fundações.</p>
+    </div>
+
+    <div class="produto-card pedras">
+      <h3>Pedra de Mão</h3>
+      <p>Ideal para bases e muros de arrimo.</p>
+    </div>
+
+    <div class="produto-card areia">
+      <h3>Areia Média</h3>
+      <p>Ótima para alvenaria e assentamento.</p>
+    </div>
+  </section>
+
+  <script src="produtos.js"></script>
